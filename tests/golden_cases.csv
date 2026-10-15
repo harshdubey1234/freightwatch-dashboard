@@ -1,0 +1,10 @@
+route,week_of,verdict,note_id,why
+Delhi-Jaipur,2024-11-11,unexplained,,Sample example; road improvement is not an adverse explanation
+Ahmedabad-Mumbai,2025-01-20,justified,N002,Sample example; festival note applies to route and week
+Mumbai-Pune,2025-09-15,unexplained,,Sample example; later stable-demand note is not justification
+Chennai-Bangalore,2025-02-24,justified,N001,Flood interval starts this week
+Chennai-Bangalore,2025-03-03,justified,N001,Shipments overlap final flood week
+Chennai-Bangalore,2025-03-10,unexplained,,Flood window has ended
+Chennai-Bangalore,2025-03-17,unexplained,,Restored normal conditions are not an explanation for rising cost
+Mumbai-Pune,2025-06-23,unexplained,,Unspecified-duration diesel event does not verify late attribution
+Mumbai-Pune,2024-01-01,normal,,No prior history establishes a rise

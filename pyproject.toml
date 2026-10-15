@@ -1,0 +1,16 @@
+[project]
+name = "freightwatch"
+version = "1.0.0"
+description = "Deterministic freight-cost monitoring with evidence-grounded explanations"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+freightwatch = "freightwatch.__main__:main"
+
+[tool.setuptools]
+packages = ["freightwatch"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

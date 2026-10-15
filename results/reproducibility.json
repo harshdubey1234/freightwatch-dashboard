@@ -1,0 +1,27 @@
+{
+  "identical": true,
+  "method": "Three independent Python subprocesses; SHA-256 of every generated artifact.",
+  "runs": [
+    {
+      "audit.json": "1e007789ed551a70f205e746e68647e2c0a30f2c1b62290f106613f2b5c5c5cb",
+      "cost_log.json": "f6abdc805c3a4c331305981033fb65ae1dc430b72cafb4539f8b0b8e1c413392",
+      "dashboard.html": "2e478d9e0f7928657f0ae71a1796592d8844672fdc8435467269016466fc0803",
+      "manifest.json": "f9d82a0d99c3508881307aec63e7dfba59f3eb0241e5c505e3420623a35d2886",
+      "output.csv": "2adc8c1f1c94d1ce509a7a6f9d9a466c62b165f1fbf44455011f7676962c9025"
+    },
+    {
+      "audit.json": "1e007789ed551a70f205e746e68647e2c0a30f2c1b62290f106613f2b5c5c5cb",
+      "cost_log.json": "f6abdc805c3a4c331305981033fb65ae1dc430b72cafb4539f8b0b8e1c413392",
+      "dashboard.html": "2e478d9e0f7928657f0ae71a1796592d8844672fdc8435467269016466fc0803",
+      "manifest.json": "f9d82a0d99c3508881307aec63e7dfba59f3eb0241e5c505e3420623a35d2886",
+      "output.csv": "2adc8c1f1c94d1ce509a7a6f9d9a466c62b165f1fbf44455011f7676962c9025"
+    },
+    {
+      "audit.json": "1e007789ed551a70f205e746e68647e2c0a30f2c1b62290f106613f2b5c5c5cb",
+      "cost_log.json": "f6abdc805c3a4c331305981033fb65ae1dc430b72cafb4539f8b0b8e1c413392",
+      "dashboard.html": "2e478d9e0f7928657f0ae71a1796592d8844672fdc8435467269016466fc0803",
+      "manifest.json": "f9d82a0d99c3508881307aec63e7dfba59f3eb0241e5c505e3420623a35d2886",
+      "output.csv": "2adc8c1f1c94d1ce509a7a6f9d9a466c62b165f1fbf44455011f7676962c9025"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "caveat": "Zero API spend, not zero compute cost. Local hardware/electricity excluded.",
+  "input_tokens": 0,
+  "llm_calls": 0,
+  "mode": "offline sparse TF-IDF retrieval + deterministic explanations",
+  "model": null,
+  "output_tokens": 0,
+  "provider_cost_usd": 0,
+  "rate_source": "Not applicable: no hosted or local language model is invoked in a full batch run",
+  "route_weeks": 728,
+  "shipment_records": 2940
+}

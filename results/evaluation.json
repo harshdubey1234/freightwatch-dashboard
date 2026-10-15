@@ -1,0 +1,131 @@
+{
+  "golden_cases": [
+    {
+      "actual_note_id": "",
+      "actual_verdict": "unexplained",
+      "note_id": "",
+      "passed": true,
+      "route": "Delhi-Jaipur",
+      "verdict": "unexplained",
+      "week_of": "2024-11-11",
+      "why": "Sample example; road improvement is not an adverse explanation"
+    },
+    {
+      "actual_note_id": "N002",
+      "actual_verdict": "justified",
+      "note_id": "N002",
+      "passed": true,
+      "route": "Ahmedabad-Mumbai",
+      "verdict": "justified",
+      "week_of": "2025-01-20",
+      "why": "Sample example; festival note applies to route and week"
+    },
+    {
+      "actual_note_id": "",
+      "actual_verdict": "unexplained",
+      "note_id": "",
+      "passed": true,
+      "route": "Mumbai-Pune",
+      "verdict": "unexplained",
+      "week_of": "2025-09-15",
+      "why": "Sample example; later stable-demand note is not justification"
+    },
+    {
+      "actual_note_id": "N001",
+      "actual_verdict": "justified",
+      "note_id": "N001",
+      "passed": true,
+      "route": "Chennai-Bangalore",
+      "verdict": "justified",
+      "week_of": "2025-02-24",
+      "why": "Flood interval starts this week"
+    },
+    {
+      "actual_note_id": "N001",
+      "actual_verdict": "justified",
+      "note_id": "N001",
+      "passed": true,
+      "route": "Chennai-Bangalore",
+      "verdict": "justified",
+      "week_of": "2025-03-03",
+      "why": "Shipments overlap final flood week"
+    },
+    {
+      "actual_note_id": "",
+      "actual_verdict": "unexplained",
+      "note_id": "",
+      "passed": true,
+      "route": "Chennai-Bangalore",
+      "verdict": "unexplained",
+      "week_of": "2025-03-10",
+      "why": "Flood window has ended"
+    },
+    {
+      "actual_note_id": "",
+      "actual_verdict": "unexplained",
+      "note_id": "",
+      "passed": true,
+      "route": "Chennai-Bangalore",
+      "verdict": "unexplained",
+      "week_of": "2025-03-17",
+      "why": "Restored normal conditions are not an explanation for rising cost"
+    },
+    {
+      "actual_note_id": "",
+      "actual_verdict": "unexplained",
+      "note_id": "",
+      "passed": true,
+      "route": "Mumbai-Pune",
+      "verdict": "unexplained",
+      "week_of": "2025-06-23",
+      "why": "Unspecified-duration diesel event does not verify late attribution"
+    },
+    {
+      "actual_note_id": "",
+      "actual_verdict": "normal",
+      "note_id": "",
+      "passed": true,
+      "route": "Mumbai-Pune",
+      "verdict": "normal",
+      "week_of": "2024-01-01",
+      "why": "No prior history establishes a rise"
+    }
+  ],
+  "golden_passed": 9,
+  "golden_total": 9,
+  "input_order_invariant": true,
+  "limitations": "Small hand-authored regression set, not independent production accuracy or a held-out benchmark.",
+  "no_lookahead_prefix_invariant": true,
+  "numerical_reference": {
+    "max_absolute_errors": {
+      "history_baseline": 4.440892098500626e-16,
+      "peer_baseline": 8.881784197001252e-16,
+      "weekly_rate": 8.881784197001252e-16
+    },
+    "rows_checked": 728,
+    "tolerance": 1e-10
+  },
+  "sensitivity": [
+    {
+      "history_threshold": 10,
+      "justified": 3,
+      "peer_threshold": 15,
+      "rising_floor": 3,
+      "unexplained": 20
+    },
+    {
+      "history_threshold": 15,
+      "justified": 3,
+      "peer_threshold": 20,
+      "rising_floor": 5,
+      "unexplained": 14
+    },
+    {
+      "history_threshold": 20,
+      "justified": 3,
+      "peer_threshold": 25,
+      "rising_floor": 7,
+      "unexplained": 7
+    }
+  ]
+}

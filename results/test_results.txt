@@ -1,0 +1,49 @@
+test_direction_preserved (test_engine.CoreTests.test_direction_preserved) ... ok
+test_exact_eight_calendar_weeks (test_engine.CoreTests.test_exact_eight_calendar_weeks) ... ok
+test_history_excludes_current_and_future (test_engine.CoreTests.test_history_excludes_current_and_future) ... ok
+test_history_mean_of_weekly_rates_not_reweighted (test_engine.CoreTests.test_history_mean_of_weekly_rates_not_reweighted) ... ok
+test_history_or_peer_trigger (test_engine.CoreTests.test_history_or_peer_trigger) ... ok
+test_invalid_policy (test_engine.CoreTests.test_invalid_policy) ... ok
+test_low_sample_stays_visible (test_engine.CoreTests.test_low_sample_stays_visible) ... ok
+test_missing_weeks_not_padded_or_replaced_by_old_observations (test_engine.CoreTests.test_missing_weeks_not_padded_or_replaced_by_old_observations) ... ok
+test_no_history_or_peers_does_not_invent_baseline (test_engine.CoreTests.test_no_history_or_peers_does_not_invent_baseline) ... ok
+test_peer_equal_route_weights (test_engine.CoreTests.test_peer_equal_route_weights) ... ok
+test_peer_excludes_self_and_other_types (test_engine.CoreTests.test_peer_excludes_self_and_other_types) ... ok
+test_ratio_of_sums_not_mean_of_ratios (test_engine.CoreTests.test_ratio_of_sums_not_mean_of_ratios) ... ok
+test_route_type_is_part_of_key (test_engine.CoreTests.test_route_type_is_part_of_key) ... ok
+test_static_expensive_route_is_not_rising (test_engine.CoreTests.test_static_expensive_route_is_not_rising) ... ok
+test_week_boundaries (test_engine.CoreTests.test_week_boundaries) ... ok
+test_after_flood_is_rejected (test_engine.EvidenceTests.test_after_flood_is_rejected) ... ok
+test_diesel_onset_can_explain_magnitude_consistent_rise (test_engine.EvidenceTests.test_diesel_onset_can_explain_magnitude_consistent_rise) ... ok
+test_empty_notes_cannot_justify (test_engine.EvidenceTests.test_empty_notes_cannot_justify) ... ok
+test_every_decoy_rejected (test_engine.EvidenceTests.test_every_decoy_rejected) ... ok
+test_festival_expires (test_engine.EvidenceTests.test_festival_expires) ... ok
+test_flood_window_exact (test_engine.EvidenceTests.test_flood_window_exact) ... ok
+test_future_note_rejected (test_engine.EvidenceTests.test_future_note_rejected) ... ok
+test_negated_surcharge_is_not_positive (test_engine.EvidenceTests.test_negated_surcharge_is_not_positive) ... ok
+test_overlap_requires_actual_affected_shipment (test_engine.EvidenceTests.test_overlap_requires_actual_affected_shipment) ... ok
+test_retrieval_stable_and_route_relevant (test_engine.EvidenceTests.test_retrieval_stable_and_route_relevant) ... ok
+test_small_diesel_rise_cannot_explain_large_spike (test_engine.EvidenceTests.test_small_diesel_rise_cannot_explain_large_spike) ... ok
+test_unknown_end_does_not_authorize_months_of_justification (test_engine.EvidenceTests.test_unknown_end_does_not_authorize_months_of_justification) ... ok
+test_unknown_positive_wording_abstains (test_engine.EvidenceTests.test_unknown_positive_wording_abstains) ... ok
+test_unsupported_temporal_phrase_abstains (test_engine.EvidenceTests.test_unsupported_temporal_phrase_abstains) ... ok
+test_valid_flood_evidence (test_engine.EvidenceTests.test_valid_flood_evidence) ... ok
+test_wrong_route_rejected (test_engine.EvidenceTests.test_wrong_route_rejected) ... ok
+test_bad_date (test_engine.InputTests.test_bad_date) ... ok
+test_bad_type (test_engine.InputTests.test_bad_type) ... ok
+test_duplicate_shipment (test_engine.InputTests.test_duplicate_shipment) ... ok
+test_invalid_denominators_and_nonfinite_values (test_engine.InputTests.test_invalid_denominators_and_nonfinite_values) ... ok
+test_empty_result_not_fabricated (test_engine.QATests.test_empty_result_not_fabricated) ... ok
+test_extra_model_fields_rejected (test_engine.QATests.test_extra_model_fields_rejected) ... ok
+test_invalid_model_route_rejected (test_engine.QATests.test_invalid_model_route_rejected) ... ok
+test_local_model_adapter_and_measured_usage (test_engine.QATests.test_local_model_adapter_and_measured_usage) ... ok
+test_march_requires_year (test_engine.QATests.test_march_requires_year) ... ok
+test_model_cannot_invent_month (test_engine.QATests.test_model_cannot_invent_month) ... ok
+test_out_of_domain_abstention (test_engine.QATests.test_out_of_domain_abstention) ... ok
+test_plain_english_query (test_engine.QATests.test_plain_english_query) ... ok
+test_rejected_model_plan_still_logs_tokens (test_engine.QATests.test_rejected_model_plan_still_logs_tokens) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.122s
+
+OK
